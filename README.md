@@ -17,7 +17,7 @@ From your command prompt change directory into levelupnodeexpress with "cd level
 run 'npm install' 
 ```
 
-**Then start the server:**
+**Then start the backend server:**
 ```
 run 'npm run server' 
 ```
@@ -43,7 +43,7 @@ run 'npm build'
 
 A build folder will be created in the clients directory it contains static files that the server can send.
 
-**Then Start the Front end app:**
+**Then Start the Front end app server:**
 ```
 run 'npm start' 
 ```
@@ -54,7 +54,7 @@ You should get this message on your command prompt as your browser opens the fro
 Starting the development server...
 ```
 
-**Then on your browser run http://localhost:4000/ which is the server port you started above, this will serve the front-end app.**
+**Then on your browser run http://localhost:4000/ which is the backend server port you started above, this will serve the front-end app.**
 
 ### Alternatively
 
