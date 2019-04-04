@@ -7,6 +7,7 @@ Clone the app by running "git clone https://github.com/oyewoas/levelupnodeexpres
 
 ### Prerequisites
 
+[NodeJs](https://nodejs.org/en/download/)
 
 ### Setting up the backend server on your pc
 
