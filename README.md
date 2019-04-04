@@ -67,3 +67,23 @@ run 'npm run dev'
 ```
 
 *This which will start both the backend server and front end app concurrently.*
+
+
+### Get public holidays using [Holiday API](https://holidayapi.com/)
+
+**On your browser run http://localhost:4000/holidays to get public holidays for the current month in Nigeria.**
+
+You will get this response:
+```
+{
+status: 200,
+    holidays: [
+        {
+        name: "Women's Day",
+        date: "2019-03-08",
+        observed: "2019-03-08",
+        public: true
+        }
+    ]
+}
+```

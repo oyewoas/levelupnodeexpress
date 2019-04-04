@@ -28,7 +28,7 @@ if(process.env.NODE_ENV === 'production') {
     res.sendFile(path.join(__dirname+'/client/public/index.html'));
   })
 
-  router.get('/holiday', (req, res) => {
+  router.get('/holidays', (req, res) => {
     request('https://holidayapi.com/v1/holidays?key=c78cd450-3899-4702-ae55-1907e3211e66&country=NG&year=2019&month=04&day=04&previous=true',  (error, response, body) => {
           console.log('error:', error); // Print the error if one occurred and handle it
           console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
